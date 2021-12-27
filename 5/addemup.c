@@ -1,3 +1,4 @@
+// 几种常见的语句
 #include <stdio.h>
 
 int main(void)
@@ -11,7 +12,6 @@ int main(void)
         sum += count;
         printf("sum = %d\n", sum);
     }
-
 
     return 0;
 }

@@ -1,4 +1,4 @@
-
+// 自动类型转换
 #include <stdio.h>
 
 int main(void)
