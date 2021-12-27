@@ -1,0 +1,71 @@
+
+1.
+    8 4 0 2
+    8 4 0 2
+
+2.
+    4
+
+3.
+    ref -> 8, ref + 1 -> 4, ++ref 不是一个合法的表达式
+
+4.
+    12 16   
+    12 14
+
+5.
+    12 16
+    12 14
+
+6.
+    &grid[22][56]
+    &grid[22][0]    grid[22]
+    &grid[0][0]  grid[0]  (int*)grid
+
+7.
+    int digits[10];
+    float rates[6];
+    int mat[3][5];
+    int* psa[20];
+    char (*psa)[20];
+    
+8.
+    int arr[6] = {1,2,4,8,16,32};
+    int arr[6]= {1,2,[2]=4,8,16,32};
+    int arr[100] = {[99]=-1};
+    int arr[100] = {[5]=101,[10]=101,101,101,101};
+
+9.
+    0-9
+
+10.
+    float rootbeer[10], things[10][5], *pf, value = 2.2;
+    int i = 3;
+
+    a  e  h 
+
+11.
+    int arr[800][600];
+
+12.
+    void process(double ar[], int size);
+    void process_vla(int n, double ar[n]);
+    process(trots, 20);
+    process(20, trots);
+
+    void process(short ar[30], int n);
+    void process_vla(int n, int m, short ar[n][n]);
+    process(clops, 10);
+    process_vla(10, 30, clops);
+
+    void process(long ar[10][15], int m);
+    void process_vla(int n, int m, int k, long ar[n][m][k]);
+    process(shots, 5);
+    process_vla(5, 10, 15, shots);
+
+13.
+    a.
+    show((double [4]){8, 3, 9, 2}, 4);
+
+    b.
+    show2((double [][3]){{8,3,9},{5,4,1}}, 2);
