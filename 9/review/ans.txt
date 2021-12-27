@@ -1,0 +1,52 @@
+
+1.
+    形参：定义在被调用函数中的变量。
+    实参：出现在函数调用中的值，该值被赋给形式参数      
+
+2.
+    void donut(int a);
+    int gear(int a, int b);
+    int guess(void);
+    void stuff_it(double d, double * pd)
+
+3.
+    char n_to_char(int n);
+    int digit(double n, int m);
+    double * which(double *n, double *m);
+    int random(void);
+
+4.
+    long sum(long a, long b)
+    {
+        return a + b;
+    }
+
+5.
+    double sum(double a, double b)
+    {
+        return a + b;
+    }
+
+6.
+    void alter(int *x, int *y)
+    {
+        int add, sub;
+        add = *x + *y;
+        sub = *x - *y;
+        *x = add;
+        *y = sub;
+    }
+
+7.
+    void salami(int num)
+    {
+        int count;
+        for (count = 0; count <= num; count++)
+            printf(" O salami mio!\n");
+    }
+
+8.
+    long max(long a, long b, long c)
+    {
+        return (a > b) ? ((a > c) ? a : c) : ((b > c) ? b : c);
+    }
