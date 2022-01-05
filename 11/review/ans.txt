@@ -1,0 +1,56 @@
+1.
+    int main(void)
+    {
+        // 如果希望得到一个字符串，初始化列表中应包含'\0'
+        // char name[] = {'F', 'e', 's', 's'};
+        char name[] = {'F', 'e', 's', 's', '\0'};
+        char name[] = "Fess";
+    }
+
+2.
+    See you at the snack bar.
+    ee you at the snack bar.
+    See you
+    e you
+
+3.
+    y
+    my
+    mmy
+    ummy
+    Yummy
+
+4.
+    I read part of it all the way through.
+
+5.
+    a: Ho Ho Ho!!oH oH oH
+    b: char *
+    c: 第一个H的地址
+    d: *--pc 把指针先递减1，并使用存储在该位置上的值；--*pc 解引用pc指向的值，然后把该值减1
+    e: ??
+    f: while(*pc) 检查 pc 是否指向一个空字符(即，是否指向字符串的末尾)。while 的测试条件中使用存储在指针指向位置上的值。
+       while(pc - str) 检查 pc 是否与 str 指向相同的位置(即，字符串的开头)。while 的测试条件中使用存储在指针指向位置上的值。
+    g: 进入第1个 while 循环后，pc 指空字符。进入第2个 while 循环后，它指向空字符前面的存储区(即，str 所指向位置前面的位置)。
+    h: 必须在主调程序中声明 pr(): char *pr(char *str);
+
+6.
+    char sign = '$';
+    sign 占用 1 字节的内存。
+    '$' char, int 存储，占用 2-4 字节的内存。
+    "$" 占用 2 字节，1个存储'$'的编码，1个存储'\0'的编码。
+
+7.
+    How are ya, sweetie?
+    How are ya, sweetie?
+    Beat the clock.
+    eat the clock.
+    Beat the clock. Win a toy.
+    Beat
+    chat
+    hat
+    at
+    t
+    t
+    at
+    How are ya, sweetie?
